@@ -800,6 +800,9 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border: 1px solid #000;
   margin: 0 auto;
   min-height: 449px;
@@ -849,13 +852,28 @@ a {
   color: #727272;
 }
 
+.skills .skills_container .skills_content .skills_my .skills_photoshop .adobe_photoshop_1 .line_1_1 .img_line_1_1 {
+  width: 445px;
+  height: 4px;
+}
+
 .skills .skills_container .skills_content .skills_my .skills_photoshop .adobe_photoshop_1 .line_1_1 .line_2_1 .img_line_2_1 {
   width: 349.36px;
   height: 4px;
 }
 
+.skills .skills_container .skills_content .skills_my .skills_photoshop .adobe_photoshop_2 .line_1_2 .img_line_1_2 {
+  width: 445px;
+  height: 4px;
+}
+
 .skills .skills_container .skills_content .skills_my .skills_photoshop .adobe_photoshop_2 .line_1_2 .line_2_2 .img_line_2_2 {
   width: 349.36px;
+  height: 4px;
+}
+
+.skills .skills_container .skills_content .skills_my .skills_photoshop .adobe_photoshop_3 .line_1_3 .img_line_1_3 {
+  width: 445px;
   height: 4px;
 }
 
