@@ -782,21 +782,93 @@ a {
 }
 
 .skills {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .skills .skills_container {
   border: 1px solid #000;
   margin: 0 auto;
   border: 1px solid #000;
-  max-width: 1100px;
+  max-width: 1150px;
   min-height: 653px;
 }
 
 .skills .skills_container .skills_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border: 1px solid #000;
   margin: 0 auto;
-  max-width: 1150px;
+  min-width: 1150px;
   min-height: 449px;
-  margin: 102px 102px;
+  margin: 102px 0 102px 0;
+}
+
+.skills .skills_container .skills_content .skills_my {
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 444px;
+  min-width: 444px;
+  max-height: 249px;
+  min-height: 249px;
+}
+
+.skills .skills_container .skills_content .skills_my span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.skills .skills_container .skills_content .skills_my .skills_photoshop {
+  margin: 50px 0 0 0;
+}
+
+.skills .skills_container .skills_content .skills_my .skills_photoshop p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+.skills .skills_container .skills_content .skills_my .skills_photoshop .adobe_photoshop_1 .line_1_1 .line_2_1 .img_line_2_1 {
+  width: 349.36px;
+  height: 4px;
+}
+
+.skills .skills_container .skills_content .skills_my .skills_photoshop .adobe_photoshop_2 .line_1_2 .line_2_2 .img_line_2_2 {
+  width: 349.36px;
+  height: 4px;
+}
+
+.skills .skills_container .skills_content .skills_my .skills_photoshop .adobe_photoshop_3 .line_1_3 .line_2_3 .img_line_2_3 {
+  width: 349.36px;
+  height: 4px;
+}
+
+.skills .skills_container .skills_content .skills_man .man {
+  max-width: 555px;
+  max-height: 450px;
 }
